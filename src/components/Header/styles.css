@@ -1,0 +1,22 @@
+.header {
+    height: 113px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+  }
+  
+  .upperHeader {
+    height: 32px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .lowerHeader {
+  }
