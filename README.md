@@ -3,7 +3,7 @@ A baseline for server side rendering for your React application. This repo has a
 
 ## Getting started
 Clone the repo with
-```git clone https://github.com/alexnm/react-ssr```
+```git clone https://github.com/eorigami-development/Fineart.Hiphop```
 
 Install dependencies with
 ```npm i```
