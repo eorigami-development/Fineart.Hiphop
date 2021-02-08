@@ -15,11 +15,11 @@ class Home extends React.Component {
         return (
             <div className="wrapper">
                 <h2>F1 2018 Season Calendar</h2>
-                {/* <ul>
+                <ul>
                     { circuits.map( ( { circuitId, circuitName, Location } ) => (
                         <li key={ circuitId } >{ circuitName } - { Location.locality }, { Location.country }</li>
                     ) ) }
-                </ul> */}
+                </ul>
             </div>
         );
     }
