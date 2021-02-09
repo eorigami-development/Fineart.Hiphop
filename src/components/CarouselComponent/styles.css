@@ -1,4 +1,19 @@
 .carouselStyles{
-    background: linear-gradient(0deg, #6C6C6C, #6C6C6C);
+    width: 100%;
+    /* background: linear-gradient(0deg, #6C6C6C, #6C6C6C); */
     height: 550px;
+}
+
+.carouselStyles > a {
+    display: none;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carouselImages {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
 }

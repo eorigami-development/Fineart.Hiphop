@@ -6,6 +6,7 @@
   }
   
   .upperHeader {
+    margin: 0;
     height: 32px;
     background-color: #1b1b1b;
     color: #ffffff;
@@ -18,7 +19,7 @@
     display: flex;
     font-size: 12px;
     line-height: 18px;
-    margin: 0 0 0 4em;
+    margin: 0 0 0 5.2em;
   }
   
   .upperHeaderLinks > li {

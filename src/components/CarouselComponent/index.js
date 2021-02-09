@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {Carousel} from "react-bootstrap";
+import banner from "./../../assets/banner.jpg"
 import "./styles.css"
 
 const CarouselComponent = () => {
@@ -10,12 +11,11 @@ const CarouselComponent = () => {
   };
 
   return (
-    //   <div>
-    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselStyles">
+    <Carousel data-interval="false" data-pause="hover" activeIndex={index} onSelect={handleSelect} className="carouselStyles">
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="carouselImages"
+          src={banner}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -25,8 +25,8 @@ const CarouselComponent = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="carouselImages"
+          src={banner}
           alt="Second slide"
         />
 
@@ -37,8 +37,8 @@ const CarouselComponent = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="carouselImages"
+          src={banner}
           alt="Third slide"
         />
 
@@ -50,7 +50,6 @@ const CarouselComponent = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    // </div>
   );
 }
 
