@@ -1,0 +1,232 @@
+.breadcrumbProgressbar {
+  display: block;
+}
+
+.mainContentHeader {
+  display: block;
+}
+
+.progressbarHeader {
+  height: 120px;
+  font-family: "Helvetica;", Arial, sans-serif !important;
+  background: #f8f8f8;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 50px;
+}
+.breadcrumb {
+  width: 980px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+div.breadcrumb > ul {
+  width: 100%;
+}
+.breadcrumbNav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+.breadcrumbNavitem {
+  flex: 1;
+  margin-top: 40px;
+  /* margin-left: 14px; */
+  /* margin: 10px 0px 0px 0px; */
+  list-style: none;
+  font-family: "Baskerville10Pro", Georgia, Times New Roman;
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+}
+.linkLight {
+  flex: 1;
+  color: #cccccc;
+  list-style: none;
+  border-bottom: none;
+  margin-top: 40px;
+  /* margin-left: 14px; */
+}
+li.breadcrumbNavitem > .linkBorder {
+  border-bottom: 1px solid #b30900;
+  padding: 5px 0px 5px 0px;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+li.linkLight > .linkBorder {
+  color: #cccccc !important;
+  font-size: 18px;
+}
+.arrowStyles {
+  /* position: absolute; */
+  font-weight: bold;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 20px;
+  border-bottom: none;
+}
+
+ul > .progressbar {
+  flex: 1;
+  margin-top: 25px;
+  /* margin: 25px 10px auto auto; */
+  list-style: none;
+}
+.progressbarPercentage {
+  text-decoration: none;
+  font-family: "Baskerville10Pro", Georgia, Times New Roman;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+}
+.progressbarMeter {
+  position: relative;
+  background: #f8f8f8;
+  border-radius: 15px;
+  padding: 6px;
+  border: 2px solid #b30900;
+}
+
+.progressbarMeterItem::before {
+  /* width: 0%; */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-size: 50px 50px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  background: #b30900;
+}
+.progressbarMeter0::before {
+  width: 0%;
+}
+.progressbarMeter25::before {
+  width: 25%;
+}
+.progressbarMeter50::before {
+  width: 50%;
+}
+.progressbarMeter75::before {
+  width: 75%;
+}
+
+.formContainer {
+  display: block;
+  width: 980px !important;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+.formHeadings {
+  margin-bottom: 2rem;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+.form-control:focus {
+  border-color: #000;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropDownButton {
+  width: 100%;
+}
+
+.dropdown > Button {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+.dropdown > Button:hover {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #000;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+
+.dropdown > Button:active {
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+.dropdown > Button:focus {
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  /* color: #000; */
+}
+
+.dropDownMonth {
+  width: 140px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.dropDownDay {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.dropDownYear {
+  width: 100px;
+}
+
+.nextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nextButton {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000000;
+  line-height: 40px;
+  font-size: 16px;
+  width: 303px;
+}
+.nextButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.mobileCountryCode {
+  margin-left: 16px;
+  margin-right: 10px;
+  width: 51px;
+}
+.mobileNumber {
+  width: 140px;
+}
+
+.extensionLabel {
+  margin-left: 10px;
+}
+
+.extensionInput {
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
