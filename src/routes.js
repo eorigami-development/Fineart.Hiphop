@@ -1,7 +1,15 @@
 import About from "./components/About";
 import Secret from "./components/Secret";
+import Signup from "./pages/Signup";
+import Home from "./pages/Home";
+
 
 export default [
+    {
+        path: "/",
+        component: Home,
+        exact: true,
+    },
     {
         path: "/about",
         component: About,
@@ -10,6 +18,11 @@ export default [
     {
         path: "/secret",
         component: Secret,
+        exact: true,
+    },
+    {
+        path: "/signup",
+        component: Signup,
         exact: true,
     },
 ];

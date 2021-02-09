@@ -2,24 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import Logo from "./../../assets/Logo.png"
-import {Container, Row, Col, Button} from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 // import { Button } from 'react-bootstrap';
 import "./styles.css"
 
-const Header = ( { loggedIn } ) => (
+const Header = ({ loggedIn }) => (
     // <Container>
-    <div className="header" col-md-3>
-        <Row className="upperHeader" sm="6">
-            <ul column md="6">
-                <li>how to sell</li>
-                <li>contact</li>
-            </ul>
+    <div className="header">
+        <Row className="upperHeader">
+            <Col sm={{ span: 4, offset: 4 }}>
+                <ul className="upperHeaderLinks">
+                    <li>How To Sell</li>
+                    <li>Contact</li>
+                </ul>
+            </Col>
         </Row>
         <div className="lowerHeader">
-        <img src={Logo} className="App-logo" alt="Logo" />
-            lower 
+            <Row>
+            <img src={Logo} className="App-logo" alt="Logo" sm="4"/>
+            <Col sm="4">
+                <ul className="lowerHeaderLinks">
+                    <li>AUCTIONS</li>
+                    <li>SELL</li>
+                    <li>ABOUT</li>
+                </ul>
+            </Col>
+            </Row>
         </div>
-        <Button variant="primary">Test</Button>
     </div>
 
     // </Container> 
