@@ -9,7 +9,7 @@
     margin: 0;
     height: 32px;
     background-color: #1b1b1b;
-    color: #ffffff;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -20,6 +20,9 @@
     font-size: 12px;
     line-height: 18px;
     margin: 0 0 0 5.2em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
   }
   
   .upperHeaderLinks > li {
@@ -28,7 +31,7 @@
 
   .lowerHeader {
     height: 81px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     margin: 0;
     width: 100%;
     align-items: center;
@@ -36,6 +39,8 @@
 
   .lowerHeaderLinks {
     display: flex;
+    font-family: Poppins;
+    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;

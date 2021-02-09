@@ -8,6 +8,12 @@
     display: none;
 }
 
+.carousel-indicators > li {
+    width: 62.5px;
+    height: 6px;
+    margin-right: 24px;
+}
+
 .carousel-item {
     width: 100%;
 }
@@ -15,5 +21,4 @@
 .carouselImages {
     width: 100%;
     height: 550px;
-    overflow: hidden;
 }

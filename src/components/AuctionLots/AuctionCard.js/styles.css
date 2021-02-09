@@ -1,0 +1,64 @@
+.card {
+    width: 430px;
+    height: 442px;
+    border: transparent;
+}
+
+.card-img{
+    width: 430px;
+    height: 300px;
+}
+
+.card-title {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.card-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    padding-top: 8px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.browseAuctionBtn{
+    width: 120px;
+    height: 38px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* letter-spacing: 0.04em; */
+    color: #333333;
+    background-color: transparent;
+    float: right;
+    margin-top: 46px;
+}
+
+.browseAuctionBtn:hover {
+    border: 1px solid #333333;
+    background-color: #333333;
+}
+.browseAuctionBtn:active {
+    border: 1px solid #333333;
+    background-color: #333333;
+}
+.browseAuctionBtn:focus {
+    border: 1px solid #333333;
+    background-color: #333333;
+}

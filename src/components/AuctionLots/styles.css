@@ -1,0 +1,11 @@
+.auctionLots{
+    margin: 60px 25px 120px 50px;
+}
+.auctionLotsHeading{
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    margin:0 32px 33px 0;
+}
