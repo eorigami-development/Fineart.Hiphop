@@ -27,11 +27,35 @@
 
   .lowerHeader {
     height: 81px;
-    background-color: #ccc;
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    align-items: center;
   }
 
   .lowerHeaderLinks {
+    display: flex;
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
+    color: #4E4E4E;
+    margin: 0;
+  }
+  
+  .lowerHeaderLinks > li {
+    margin-left: 40px;
+  }
+
+  .headerIcons {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .headerIcons > svg {
+    margin: 20px;
+  }
+
+  .searchIcon{
+    margin-right: 35px;
   }

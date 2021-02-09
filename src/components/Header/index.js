@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import Logo from "./../../assets/Logo.png"
+import Logo from "./../../assets/Logo.svg"
+import {ReactComponent as SearchIcon} from "./../../assets/Search.svg"
+import {ReactComponent as UserIcon} from "./../../assets/User.svg"
 import { Container, Row, Col, Button } from "react-bootstrap";
 // import { Button } from 'react-bootstrap';
 import "./styles.css"
@@ -17,18 +19,24 @@ const Header = ({ loggedIn }) => (
                 </ul>
             </Col>
         </Row>
-        <div className="lowerHeader">
-            <Row>
-            <img src={Logo} className="App-logo" alt="Logo" sm="4"/>
-            <Col sm="4">
-                <ul className="lowerHeaderLinks">
-                    <li>AUCTIONS</li>
-                    <li>SELL</li>
-                    <li>ABOUT</li>
-                </ul>
-            </Col>
+        {/* <div className="lowerHeader"> */}
+            <Row className="lowerHeader">
+                <Col sm="4">
+                    <img src={Logo} className="App-logo" alt="Logo" sm="4" />
+                </Col>
+                <Col sm="4">
+                    <ul className="lowerHeaderLinks">
+                        <li>AUCTIONS</li>
+                        <li>SELL</li>
+                        <li>ABOUT</li>
+                    </ul>
+                </Col>
+                <Col sm="4" className="headerIcons">
+                    <SearchIcon className="searchIcon"/>
+                    <UserIcon />
+                </Col>
             </Row>
-        </div>
+        {/* </div> */}
     </div>
 
     // </Container> 
