@@ -1,0 +1,70 @@
+.categoryCarouselStyles{
+    /* background: linear-gradient(0deg, #6C6C6C, #6C6C6C); */
+    height: 550px;
+    display: flex;
+    margin: 0 50px 200px;
+}
+
+.categorySlideStyles{
+    width: 100%;
+}
+
+.categoryCarouselRow {
+    flex-direction: row-reverse;
+}
+
+.categoryCarouselStyles > a {
+    display: none;
+}
+
+.carousel-indicators {
+    right: auto;
+    bottom: 16em;
+    margin-left: 0;
+}
+
+.carousel-indicators > li {
+    width: 30px;
+    height: 6px;
+    margin-right: 6px;
+    background-color: #E2E2E2;
+}
+
+.carousel-indicators > li {
+    background-color: #333333;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.categoryCarouselImages {
+    width: 100%;
+    height: 550px;
+}
+
+.categoryCarouselContent{
+    position: static;
+    color: #000;
+    text-align: left;
+    padding-top: 0;
+}
+
+.categoryContentHeading {
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 82px;
+color: #333333
+}
+
+.contentShortInfo{
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333333;
+margin-top: 30px;
+}
