@@ -55,10 +55,12 @@
     background-color: #333333;
 }
 .browseAuctionBtn:active {
-    border: 1px solid #333333;
-    background-color: #333333;
+    border: 1px solid #333333 !important;
+    background-color: #333333 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
 }
 .browseAuctionBtn:focus {
-    border: 1px solid #333333;
-    background-color: #333333;
+    border: 1px solid #333333 !important;
+    background-color: #333333 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
 }

@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import Logo from "./../../assets/Logo.svg"
 import {ReactComponent as SearchIcon} from "./../../assets/Search.svg"
 import {ReactComponent as UserIcon} from "./../../assets/User.svg"
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 // import { Button } from 'react-bootstrap';
 import "./styles.css"
 
@@ -22,7 +22,7 @@ const Header = ({ loggedIn }) => (
         {/* <div className="lowerHeader"> */}
             <Row className="lowerHeader">
                 <Col sm="4">
-                    <img src={Logo} className="App-logo" alt="Logo" sm="4" />
+                    <img src={Logo} className="appLogo" alt="Logo" sm="4" />
                 </Col>
                 <Col sm="4">
                     <ul className="lowerHeaderLinks">

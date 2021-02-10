@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Carousel, Row, Col } from "react-bootstrap";
+import { Carousel, Row, Col, Button } from "react-bootstrap";
 import Swag from "./../../assets/Swag.jpg"
 import banner from "./../../assets/banner.jpg"
 import "./styles.css"
@@ -32,11 +32,12 @@ const CategoryCarousel = () => {
                                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                                     Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet
                                 </p>
+                                 <Button className="discoverBtn">Discover</Button>
                             </Carousel.Caption>
                         </Col>
                     </Row>
                 </Carousel.Item>
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <Row className="categoryCarouselRow">
                         <Col sm="8">
                             <img
@@ -55,7 +56,7 @@ const CategoryCarousel = () => {
                             </Carousel.Caption>
                         </Col>
                     </Row>
-                </Carousel.Item>
+                </Carousel.Item> */}
                 
             </Carousel>
         </div>

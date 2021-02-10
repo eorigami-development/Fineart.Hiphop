@@ -1,0 +1,51 @@
+.newsletterContainer{
+    width: 100%;
+height: 144px;
+display: flex;
+align-items: center;
+background-color: #4D4D4D;
+}
+.newletterContainerRow{
+    margin: 0;
+    width: 100%;
+}
+.newsletterHeading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.newsletterContent{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.emailBlock{
+    width: 411px;
+height: 54px;
+}
+.emailFieldStyles{
+    width: 304px !important;
+    height: 54px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+flex: unset !important;
+}
+
+.input-group-append {
+    width: 107px !important;
+}
+
+.input-group-text {
+    width: 100%;
+}

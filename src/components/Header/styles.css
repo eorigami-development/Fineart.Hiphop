@@ -5,6 +5,9 @@
     top: 0px;
   }
   
+  .appLogo{
+    padding-left: 35px;
+  }
   .upperHeader {
     margin: 0;
     height: 32px;

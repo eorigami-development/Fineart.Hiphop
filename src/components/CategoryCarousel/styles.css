@@ -13,7 +13,7 @@
     flex-direction: row-reverse;
 }
 
-.categoryCarouselStyles > a {
+.categorySlideStyles > a {
     display: none;
 }
 
@@ -67,4 +67,36 @@ font-size: 16px;
 line-height: 26px;
 color: #333333;
 margin-top: 30px;
+}
+
+.discoverBtn{
+    width: 152px;
+height: 64px;
+border: 1px solid #333333;
+box-sizing: border-box;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.04em;
+color: #333333;
+background-color: transparent;
+margin-top: 24px;
+}
+
+.discoverBtn:hover {
+    border: 1px solid #333333;
+    background-color: #333333;
+}
+
+.discoverBtn:active{
+    border: 1px solid #333333 !important;
+    background-color: #333333 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+.discoverBtn:focus{
+    border: 1px solid #333333 !important;
+    background-color: #333333 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
 }
