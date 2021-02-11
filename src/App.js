@@ -8,12 +8,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Switch>
         {routes.map(route => <Route key={route.path} {...route} />)}
       </Switch>
-      <Newsletter />
-      <Footer />
+      {/* <Newsletter />
+      <Footer /> */}
     </div>
   );
 }
