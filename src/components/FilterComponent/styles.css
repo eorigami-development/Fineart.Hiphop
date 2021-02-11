@@ -1,0 +1,58 @@
+.artistMenu {
+    width  : 100%;
+    padding: 0;
+    border : none;
+}
+
+.artistMenu:hover {
+    background-color: transparent;
+}
+.artistMenu:focus {
+    background-color: transparent;
+}
+
+.filterByText {
+    font-family   : Poppins;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 16px;
+    line-height   : 24px;
+    letter-spacing: 0.44px;
+    color         : #19191D;
+}
+
+.dropdown {
+    width: 90%;
+}
+
+.dropdown > button {
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #C4C4C4;
+    color: #000;
+    text-align: left;
+    padding: 0 0 10px 8px;
+    border-radius: 0;
+}
+.show >.btn-primary.dropdown-toggle {
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid #C4C4C4 !important;
+    color: #000;
+    text-align: left;
+}
+
+.dropdown > Button:active, .dropdown > Button:focus, .dropdown > Button:hover {
+    background-color: transparent !important;
+    border:none !important;
+    border-bottom:1px solid #C4C4C4 !important;
+    box-shadow: none !important;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.upArrow{
+    margin-left: 117px;
+}

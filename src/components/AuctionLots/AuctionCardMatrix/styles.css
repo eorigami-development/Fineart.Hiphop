@@ -1,0 +1,131 @@
+.card {
+    width : 430px;
+    height: 442px;
+    border: transparent;
+}
+
+.lotBtn {
+    width         : 59px;
+    height        : 33px;
+    background    : #FFFFFF;
+    border        : 1px solid rgba(0, 0, 0, 0.3);
+    border-radius : 4px;
+    margin        : 8px 0px;
+    font-family   : Poppins;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 14px;
+    line-height   : 21px;
+    letter-spacing: 0.04em;
+    color         : #333333;
+}
+
+.card-img {
+    /* width : 430px;
+    height: 300px; */
+    width: 302px;
+height: 300px;
+}
+
+.card-title {
+    font-family: Noto Serif;
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 18px;
+    line-height: 26px;
+    color      : #333333;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.card-text {
+    font-family: Poppins;
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 12px;
+    line-height: 18px;
+    color      : #333333;
+    padding-top: 8px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.priceBidRow {
+    margin: 0;
+}
+
+.priceEstimate {
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.estimate {
+    font-family: Poppins;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 12px;
+    line-height: 18px;
+    color      : rgba(0, 0, 0, 0.5);
+    margin     : 0;
+}
+
+.price {
+    font-family: Poppins;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 21px;
+    color      : #333333;
+    margin     : 0;
+}
+
+.bitBtnContainer{
+    padding: 0;
+}
+
+.bidBtn {
+    width         : 64px;
+    height        : 37px;
+    border        : 1px solid #333333;
+    background    : #FFFFFF;
+    box-sizing    : border-box;
+    border-radius : 4px;
+    font-family   : Poppins;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 14px;
+    line-height   : 21px;
+    letter-spacing: 0.02em;
+    color         : #333333;
+    float         : right;
+    margin-top    : 46px;
+    padding: 0;
+}
+
+.bidBtnText{
+    width: 23px;
+    height: 21px;
+}
+
+.bidIcon{
+    padding-right: 6px;
+}
+
+.bidBtn:hover,
+.lotBtn:hover {
+    border          : 1px solid #333333;
+    background-color: #333333;
+}
+
+.bidBtn:active,
+.lotBtn:active,
+.bidBtn:focus,
+.lotBtn:focus {
+    border          : 1px solid #333333 !important;
+    background-color: #333333 !important;
+    box-shadow      : 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}

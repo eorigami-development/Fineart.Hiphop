@@ -1,0 +1,75 @@
+.lotsContainer{
+   
+
+}
+.tabsRow{
+    margin: 39px 0 100px 0;
+}
+
+.tabsColumn{
+    padding-left: 50px;
+    padding-right: 0;
+    
+}
+
+.nav {
+    border: none;
+}
+.nav-tabs .nav-link {
+    border:none;
+    padding: 0;
+}
+
+.nav > a {
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #333333;
+opacity: 0.4;
+margin-right: 40px;
+}
+
+.nav > a:focus {
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+opacity:unset ;
+color: #333333;
+}
+
+.sortBy {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+display: flex;
+align-items: center;
+color: #212121;
+}
+
+.lotsRow {
+    margin: 0;
+}
+
+.filterByColumn{
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.cardMatrix{
+    padding: 0;
+}
+
+.card-deck {
+    margin:0;
+}
+
+.card-deck > .card {
+   margin-left: 24px;
+   margin-right: 24px;
+}

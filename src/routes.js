@@ -3,6 +3,7 @@ import Secret from "./components/Secret";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
+import Lots from "./pages/Lots";
 
 export default [
     {
@@ -28,6 +29,11 @@ export default [
     {
         path: "/profile",
         component: Profile,
+        exact: true,
+    },
+    {
+        path: "/lots",
+        component: Lots,
         exact: true,
     },
 ];
