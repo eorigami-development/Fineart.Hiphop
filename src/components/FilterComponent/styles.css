@@ -7,6 +7,7 @@
 .artistMenu:hover {
     background-color: transparent;
 }
+
 .artistMenu:focus {
     background-color: transparent;
 }
@@ -23,36 +24,63 @@
 
 .dropdown {
     width: 90%;
+    margin: 32px 0 32px;
 }
 
-.dropdown > button {
+.dropdown>button {
+    font-family     : Poppins;
+    font-style      : normal;
+    font-weight     : normal;
+    font-size       : 16px;
+    line-height     : 24px;
     background-color: transparent;
-    border: none;
-    border-bottom:1px solid #C4C4C4;
-    color: #000;
-    text-align: left;
-    padding: 0 0 10px 8px;
-    border-radius: 0;
-}
-.show >.btn-primary.dropdown-toggle {
-    background-color: transparent;
-    border:none;
-    border-bottom:1px solid #C4C4C4 !important;
-    color: #000;
-    text-align: left;
+    border          : none;
+    border-bottom   : 1px solid #C4C4C4;
+    color           : #000;
+    text-align      : left;
+    padding         : 0 0 10px 8px;
+    border-radius   : 0;
 }
 
-.dropdown > Button:active, .dropdown > Button:focus, .dropdown > Button:hover {
+.show>.btn-primary.dropdown-toggle {
+    background-color: transparent;
+    border          : none;
+    border-bottom   : 1px solid #C4C4C4 !important;
+    color           : #000;
+    text-align      : left;
+}
+
+.dropdown>Button:active,
+.dropdown>Button:focus,
+.dropdown>Button:hover {
     background-color: transparent !important;
-    border:none !important;
-    border-bottom:1px solid #C4C4C4 !important;
-    box-shadow: none !important;
+    border          : none !important;
+    border-bottom   : 1px solid #C4C4C4 !important;
+    box-shadow      : none !important;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
     display: none;
 }
 
-.upArrow{
+.upArrow {
     margin-left: 117px;
+}
+
+.form-check{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.form-check-label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #19191D;
+}
+
+.form-check-input{
+    border: 2px solid #C4C4C4;
 }
