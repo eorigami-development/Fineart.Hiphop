@@ -34,10 +34,10 @@ const Lots = () => {
                 </Col>
                 <Col sm="9" className="cardMatrix">
                     <CardDeck>
-                <AuctionCardMatrix />
-                <AuctionCardMatrix />
-                <AuctionCardMatrix />
-                </CardDeck>
+                        <AuctionCardMatrix />
+                        <AuctionCardMatrix />
+                        <AuctionCardMatrix />
+                    </CardDeck>
                 </Col>
             </Row>
         </div>
