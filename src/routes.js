@@ -2,7 +2,7 @@ import About from "./components/About";
 import Secret from "./components/Secret";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
-
+import Profile from "./pages/Profile";
 
 export default [
     {
@@ -23,6 +23,11 @@ export default [
     {
         path: "/signup",
         component: Signup,
+        exact: true,
+    },
+    {
+        path: "/profile",
+        component: Profile,
         exact: true,
     },
 ];
