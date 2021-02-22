@@ -6,7 +6,7 @@ import "./styles.css";
 
 const AuctionCardMatrix = () => {
     return (
-        <Card sm="3">
+        <Card>
             <Button className="lotBtn">Lot 1</Button>
             <Card.Img variant="top" src={LotBigDaddy} />
             <Card.Body>

@@ -1,7 +1,7 @@
 import React from 'react';
 import FilterComponent from "./../../components/FilterComponent";
 import AuctionCardMatrix from "./../../components/AuctionLots/AuctionCardMatrix";
-import { Tabs, Tab, Row, Col, CardDeck } from 'react-bootstrap';
+import { Tabs, Tab, Row, Col, CardDeck, CardGroup, CardColumns } from 'react-bootstrap';
 import "./styles.css"
 
 const Lots = () => {
@@ -33,11 +33,15 @@ const Lots = () => {
                     <FilterComponent />
                 </Col>
                 <Col sm="9" className="cardMatrix">
-                    <CardDeck>
+                    <CardColumns>
                         <AuctionCardMatrix />
                         <AuctionCardMatrix />
                         <AuctionCardMatrix />
-                    </CardDeck>
+                        <AuctionCardMatrix />
+                        <AuctionCardMatrix />
+                        <AuctionCardMatrix />
+                        <AuctionCardMatrix />
+                    </CardColumns>
                 </Col>
             </Row>
         </div>
